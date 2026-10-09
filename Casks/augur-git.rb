@@ -1,8 +1,8 @@
 cask "augur-git" do
-  version "0.1.1-nightly.20"
-  sha256 "2a95858a5986bce51c3c2408ce1c27555bca5c940c3e39b89a3f12dda206d8df"
+  version "0.1.1-nightly.22"
+  sha256 "e2b7a9991477d23a9f2c475f02f47333a8d56d68227af097059e0dd0858d4617"
 
-  url "https://github.com/algosoft-lab/augur-git/releases/download/tauri-nightly-0.1.1-nightly.20/augur-git-tauri-macos-arm64-0.1.1-nightly.20.dmg"
+  url "https://github.com/algosoft-lab/augur-git/releases/download/tauri-nightly-0.1.1-nightly.22/augur-git-tauri-macos-arm64-0.1.1-nightly.22.dmg"
   name "Augur Git"
   desc "Review-first desktop Git client"
   homepage "https://github.com/algosoft-lab/augur-git"
@@ -10,6 +10,7 @@ cask "augur-git" do
   depends_on arch: :arm64
 
   app "Augur Git Tauri.app"
+  binary "#{appdir}/Augur Git Tauri.app/Contents/MacOS/agit", target: "agit"
 
   caveats <<~EOS
     Nightly builds use an ad-hoc signature and are not notarized. macOS may ask you to approve the app
