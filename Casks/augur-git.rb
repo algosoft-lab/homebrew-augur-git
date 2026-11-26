@@ -1,8 +1,8 @@
 cask "augur-git" do
-  version "0.1.1-nightly.41"
-  sha256 "c0f0596344ac044cd42b7c01b5436e5aa5900d41493c024ae5f70e48176effea"
+  version "0.1.1-nightly.42"
+  sha256 "e2b2cb5fe79b0f0a84e6db337737bcd3116d27bbaaed16578142333fb8e1e4a3"
 
-  url "https://github.com/algosoft-lab/augur-git/releases/download/tauri-nightly-0.1.1-nightly.41/augur-git-tauri-macos-arm64-0.1.1-nightly.41.dmg"
+  url "https://github.com/algosoft-lab/augur-git/releases/download/tauri-nightly-0.1.1-nightly.42/augur-git-tauri-macos-arm64-0.1.1-nightly.42.dmg"
   name "Augur Git"
   desc "Review-first desktop Git client"
   homepage "https://github.com/algosoft-lab/augur-git"
